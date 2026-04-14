@@ -1,0 +1,29 @@
+{
+  "qq_email": {
+    "email": "your_qq@qq.com",
+    "imap_host": "imap.qq.com",
+    "imap_port": 993,
+    "smtp_host": "smtp.qq.com",
+    "smtp_port": 465,
+    "auth_code": "your_qq_auth_code"
+  },
+  "minimax": {
+    "api_key": "your_minimax_api_key",
+    "base_url": "https://api.minimax.chat/v1",
+    "model": "MiniMax-M2.7",
+    "group_id": "",
+    "timeout_seconds": 60
+  },
+  "tencent_meeting": {
+    "base_url": "https://api.meeting.qq.com",
+    "access_token": "your_tencent_meeting_access_token",
+    "user_id": "your_operator_user_id",
+    "user_id_type": 1,
+    "registered": true,
+    "dry_run": true
+  },
+  "office_agent": {
+    "workspace_dir": ".",
+    "max_retry_count": 2
+  }
+}
