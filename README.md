@@ -1,6 +1,35 @@
 # Office Agent
 
-> A terminal-first office automation agent for email, documents, files, content analysis, and Tencent Meeting workflows.
+<p align="center">
+  <strong>A terminal-first office automation agent for email, documents, files, content analysis, and Tencent Meeting workflows.</strong>
+</p>
+
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img alt="LangGraph" src="https://img.shields.io/badge/Workflow-LangGraph-111111?style=flat-square">
+  <img alt="Tencent Meeting" src="https://img.shields.io/badge/Meeting-Tencent%20Meeting-0A84FF?style=flat-square">
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-green?style=flat-square">
+</p>
+
+<p align="center">
+  <em>让邮件、文档、会议和通知从分散动作变成一条可执行工作流。</em>
+</p>
+
+## Table of Contents
+
+- [Why This Project](#why-this-project)
+- [Features](#features)
+- [Workflow Examples](#workflow-examples)
+- [Architecture](#architecture)
+- [Project Structure](#project-structure)
+- [Quick Start](#quick-start)
+- [Configuration](#configuration)
+- [Command Examples](#command-examples)
+- [Tencent Meeting Integration Notes](#tencent-meeting-integration-notes)
+- [Current Limitations](#current-limitations)
+- [Roadmap](#roadmap)
+- [Documentation](#documentation)
+- [License](#license)
 
 `Office Agent` 是一个面向真实办公场景的终端自动化 Agent。  
 它不是简单的命令集合，而是基于状态流和节点编排，把“读文档、发邮件、建会议、写周报、做分析”这些动作串成可执行工作流。
